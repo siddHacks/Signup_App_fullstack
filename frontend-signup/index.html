@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup-Form</title>
+    <link rel="stylesheet" href="css/signup.css">
+    <script src="https://kit.fontawesome.com/b34b91dd7d.js" crossorigin="anonymous"></script>
+    <script src="Js/signup.js"></script>
+</head>
+<body>
+   
+    <div class="container">
+     <div class="form-box">
+        <h1>Sign Up</h1>
+        <form>
+            <div class="input-group">
+                <div class="input-field" >
+                    <i class="fa-solid fa-user"></i>
+                    <input type="text" id="nameField" placeholder="Name">
+                </div>
+                <div class="input-field" >
+                    <i class="fa-solid fa-envelope"></i>
+                    <input type="email" id="emailField" placeholder="Email">
+                    
+                </div>
+                <div class="input-field">
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="password"  id="passwordField" placeholder="Password">
+                </div>
+                <div class="input-field" >
+                    <i class="fa-solid fa-phone"></i>
+                    <input type="text" id="phoneField" placeholder="Phone">
+                </div>
+                <div class="input-field" >
+                    <i class="fa-solid fa-location-dot"></i>
+                    <input type="text" id="addressField" placeholder="Address">
+                </div>
+                <div class="input-field" >
+                    <i class="fa-solid fa-city"></i>
+                    <input type="text" id="cityField" placeholder="City">
+                </div>
+                <div class="input-field">
+                    <i class="fa-regular fa-flag"></i>
+                    <input type="text" id="stateField" placeholder="State">
+                </div>
+                <div class="input-field" >
+                    <i class="fa-solid fa-thumbtack"></i>
+                    <input type="text" id="pincodeField" placeholder="pincode">
+                </div>
+                <p> Forget Password <a href="#"> Click here</a> </p>
+            </div>
+            <div class="btn-field">
+                <button type="button" id="signup-btn" onclick="restcall()">Sign up</button>
+            </div>
+        </form>
+
+     </div>
+
+    </div>
+</body>
+</html>
